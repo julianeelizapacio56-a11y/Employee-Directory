@@ -134,3 +134,4 @@ function renderTable(department) {
   table.appendChild(tbody);
   tablesContainer.appendChild(table);
 }
+
