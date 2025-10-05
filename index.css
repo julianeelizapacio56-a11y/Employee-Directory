@@ -1,0 +1,158 @@
+/* Global styling */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+header button {
+  background-color: white;
+  color: #4CAF50;
+  padding: 10px 15px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+.form-container {
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-container form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.form-container form input,
+.form-container form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container form button {
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-container form button:hover {
+  background-color: #45a049;
+}
+
+/* Tab & Department Styling */
+#departmentsSection {
+  margin-top: 40px;
+}
+
+#departmentsSection h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.tab {
+  background-color: #f2f2f2;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.tab:hover {
+  background-color: #e6e6e6;
+}
+
+.tab.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.department-section {
+  margin-top: 20px;
+}
+
+.department-section h3 {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f7f7f7;
+}
+
+/* Form Section */
+.form-container form input,
+.form-container form select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+}
